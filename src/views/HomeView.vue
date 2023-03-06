@@ -1,10 +1,12 @@
 <script setup lang="ts">
+import CCharacters from '@/components/CCharacters.vue';
 
 </script>
 
 <template>
   <div class="wrapper">
     <div class="main">
+      <CCharacters />
     </div>
     <div></div>
     <div></div>
@@ -17,6 +19,7 @@
   height: calc(100% - 60px);
   display: flex;
   justify-content: center;
+  margin-top: 60px;
 
   .main {
     width: 42%;
