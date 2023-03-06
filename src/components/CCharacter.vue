@@ -1,12 +1,14 @@
 <template>
-  <div class="wrapper" @mouseover="() => { shown = true; hidden = true }"
-    @mouseout="() => { shown = false; hidden = false }">
-    <img :src="character.image" alt="loading..." />
-    <div class="gradient" />
-    <CTitle :title="character.name" :hidden="hidden" />
-    <CInfo :name="character.name" :status="character.status" :type="character.type" :species="character.species"
-      :gender="character.gender" :shown="shown" />
-  </div>
+  <RouterLink :to="`character/${character.id}`">
+    <div class="wrapper" @mouseover="() => { shown = true; hidden = true }"
+      @mouseout="() => { shown = false; hidden = false }">
+      <img :src="character.image" alt="loading..." />
+      <div class="gradient" />
+      <CTitle :title="character.name" :hidden="hidden" />
+      <CInfo :name="character.name" :status="character.status" :type="character.type" :species="character.species"
+        :gender="character.gender" :shown="shown" />
+    </div>
+  </RouterLink>
 </template>
 
 <script setup lang="ts">
