@@ -1,46 +1,50 @@
-# teste
+<h1 align="center"><img src="https://user-images.githubusercontent.com/106850340/223176493-97de6676-94dc-42f4-bc9d-8a72caec4b67.png" alt="" /></h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+## About
 
-## Recommended IDE Setup
+**Rick and Morty** is a web app project designed as a referrence to learn more about character of the show Rick and Morty!
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<h1 align="center"><video height="700px" width="323.4375px" src="https://user-images.githubusercontent.com/106850340/223178268-2cb1afbf-1dce-4c07-8b36-0aa58d6f2f48.mp4" alt=""/></h1>
 
-## Type Support for `.vue` Imports in TS
+Try it now: https://rick-and-morty-characters-tau.vercel.app/
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Features
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- List of characters
+- One character page
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Technologies
 
-## Customize configuration
+<p>
+  <img style='margin: 5px;' src='https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D'>
+  <img style='margin: 5px;' src='https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=for-the-badeg'>
+</p>
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## How to run
 
-## Project Setup
+1. Clone this repository
+```bash
+# HTTPS
+git clone https://github.com/raulriato/rick-and-morty-characters.git
 
-```sh
-npm install
+# SSH
+git clone git@github.com:raulriato/rick-and-morty-characters.git
+```
+2. Install dependencies
+```bash
+# npm
+npm i
+
+# yarn
+yarn
+```
+3. Run the app with
+```bash
+# npm
+npm start
+
+# yarn
+yarn start
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+4. Finally, access http://localhost:5173 on your favorite browser
