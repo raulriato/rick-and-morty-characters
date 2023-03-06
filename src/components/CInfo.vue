@@ -8,8 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import type { Ref } from 'vue';
 defineProps<{
   name: string,
   status: string,
@@ -37,17 +35,19 @@ defineProps<{
     width: 90%;
     font-size: 25px;
     text-align: left;
+    margin-bottom: 10px;
   }
 
   span {
     width: 90%;
     font-size: 20px;
     text-align: left;
+    margin-bottom: 10px;
   }
 }
 
 .shown {
-  transform: translateY(0);
+  transform: translateY(-50px);
 }
 
 .hidden {

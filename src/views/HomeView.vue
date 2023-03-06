@@ -16,14 +16,17 @@ import CCharacters from '@/components/CCharacters.vue';
 <style scoped lang="scss">
 .wrapper {
   width: 100%;
-  height: calc(100% - 60px);
+  height: calc(100% - 80px);
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 80px;
 
   .main {
     width: 42%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 </style>

@@ -16,7 +16,7 @@ defineProps<{
 div {
   width: 90%;
   position: absolute;
-  bottom: 8px;
+  bottom: 18px;
   
   h1 {
     text-align: center;
